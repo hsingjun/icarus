@@ -1,0 +1,4 @@
+/home/zhangxin/software/ngsutils/fastqutils trim -3 ATCCTTCGTATGCCGTCTTCTGCTTG -len 15 ./data/P3k > ./data/trimed/P3k.JL-U103.trimed
+/home/zhangxin/software/ngsutils/fastqutils trim -3 CACTCTCGTATGCCGTCTTCTGCTTG -len 15 ./data/P3k > ./data/trimed/P3k.JL-U108.trimed
+/home/zhangxin/software/ngsutils/fastqutils trim -3 GTACCTCGTATGCCGTCTTCTGCTTG -len 15 ./data/P3k > ./data/trimed/P3k.JL-CD2.trimed
+
