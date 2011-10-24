@@ -1,0 +1,1 @@
+/home/zhangxin/pro/JL01/data/test/findTrimPos.pl
