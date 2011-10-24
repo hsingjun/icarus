@@ -1,3 +1,4 @@
+w
 #!usr/bin/perl
 #use warnings;
 
@@ -91,7 +92,12 @@ foreach my $raw(@rawreadsfl)
 
 close OUT;
 
-print "scannedRawReads\t$scannedRawReads\nscannedTrimmedReads\t$scannedTrimmedReads\n";
+open(OUT,">stat")||die "$!";
+
+print OUT "scannedRawReads\t$scannedRawReads\nscannedTrimmedReads\t$scannedTrimmedReads\n";
+
+close OUT;
+
 sub readFastq
 {
 	#return hash for each read.
